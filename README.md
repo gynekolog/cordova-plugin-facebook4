@@ -1,8 +1,8 @@
 # cordova-plugin-facebook4
 
 > Use Facebook SDK in Cordova projects
-> Android - 4.7
-> iOS - 3.21.1
+`Android - 4.7`
+`iOS - 3.21.1`
 
 ## Installation
 
