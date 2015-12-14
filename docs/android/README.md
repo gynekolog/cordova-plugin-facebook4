@@ -16,7 +16,8 @@ $ cd myApp/
 $ cordova platform add android
 
 # Remember to replace APP_ID and APP_NAME variables
-$ cordova plugin add https://github.com/jeduan/cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+$ git clone https://github.com/gynekolog/cordova-plugin-facebook4-ios3.git
+$ cordova plugin add /path/to/cloned/cordova-plugin-facebook4-ios3 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
 ```
 
 You can now use the plugin right away

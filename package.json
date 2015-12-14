@@ -1,34 +1,33 @@
 {
-  "name": "cordova-plugin-facebook4",
+  "name": "cordova-plugin-facebook4-ios3",
   "version": "1.4.0",
-  "description": "Cordova Facebook SDK 4 Plugin",
+  "description": "Fork of the Cordova Facebook SDK 4 Plugin",
   "cordova": {
-    "id": "cordova-plugin-facebook4",
     "platforms": [
-      "android",
-      "ios",
-      "browser"
+    "android",
+    "ios",
+    "browser"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jeduan/cordova-plugin-facebook4"
-  },
-  "dependencies": {
-    "chalk": "^1.1.1",
-    "xcode": "^0.8.2",
-    "xml-parser": "^1.2.1"
-  },
-  "keywords": [
-    "cordova",
-    "facebook",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-browser",
-    "facebook-sdk",
-    "social",
-    "sharing"
-  ],
-  "license": "Apache-2.0"
-}
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gynekolog/cordova-plugin-facebook4-ios3.git"
+      },
+      "dependencies": {
+        "chalk": "^1.1.1",
+        "xcode": "^0.8.2",
+        "xml-parser": "^1.2.1"
+        },
+        "keywords": [
+        "cordova",
+        "facebook",
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "cordova-browser",
+        "facebook-sdk",
+        "social",
+        "sharing"
+        ],
+        "license": "Apache-2.0"
+      }

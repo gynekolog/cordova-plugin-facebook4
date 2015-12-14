@@ -1,4 +1,4 @@
-# cordova-plugin-facebook4
+# cordova-plugin-facebook4-ios3
 
 > Use Facebook SDK in Cordova projects
 `Android - 4.7`
@@ -9,13 +9,13 @@
 Make sure you've registered your Facebook app with Facebook and have an `APP_ID` [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
 ```bash
-$ git clone https://github.com/gynekolog/cordova-plugin-facebook4.git
-$ cordova plugin add /path/to/cloned/cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+$ git clone https://github.com/gynekolog/cordova-plugin-facebook4-ios3.git
+$ cordova plugin add /path/to/cloned/cordova-plugin-facebook4-ios3 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
 ```
 
 ## Usage
 
-This is a fork of the [official plugin for Facebook](https://github.com/Wizcorp/phonegap-facebook-plugin/) in Apache Cordova that implements the latest Facebook SDK. Unless noted, this is a drop-in replacement. You don't have to replace your client code.
+This is a fork of the [unofficial plugin for Facebook](https://github.com/jeduan/cordova-plugin-facebook4) which is fork of the [official plugin for Facebook](https://github.com/Wizcorp/phonegap-facebook-plugin/) in Apache Cordova that implements the latest Facebook SDK. Unless noted, this is a drop-in replacement. You don't have to replace your client code.
 
 The Facebook plugin for [Apache Cordova](http://cordova.apache.org/) allows you to use the same JavaScript code in your Cordova application as you use in your web application. However, unlike in the browser, the Cordova application will use the native Facebook app to perform Single Sign On for the user.  If this is not possible then the sign on will degrade gracefully using the standard dialog based authentication.
 
