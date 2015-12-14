@@ -139,19 +139,29 @@
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
           <array>
             <string>fbapi</string>
-            <string>fb-messenger-api</string>
+            <string>fbapi20130214</string>
+            <string>fbapi20130410</string>
+            <string>fbapi20130702</string>
+            <string>fbapi20131010</string>
+            <string>fbapi20131219</string>    
+            <string>fbapi20140410</string>
+            <string>fbapi20140116</string>
+            <string>fbapi20150313</string>
+            <string>fbapi20150629</string>
+            <string>fbauth</string>
             <string>fbauth2</string>
-            <string>fbshareextension</string>
+            <string>fb-messenger-api20140430</string>
           </array>
         </config-file>
 
         <!-- Bolts framework -->
-        <framework src="src/ios/Bolts.framework" custom="true" />
+        <framework src="src/ios/FacebookSDK.framework" custom="true" />
 
-        <!-- Facebook framework -->
-        <framework src="src/ios/FBSDKCoreKit.framework" custom="true" />
-        <framework src="src/ios/FBSDKLoginKit.framework" custom="true" />
-        <framework src="src/ios/FBSDKShareKit.framework" custom="true" />
+       <!-- System frameworks -->
+        <framework src="libsqlite3.dylib" />
+        <framework src="Social.framework" weak="true" />
+        <framework src="Accounts.framework" weak="true" />
+        <framework src="Security.framework" weak="true" />
 
     </platform>
 
